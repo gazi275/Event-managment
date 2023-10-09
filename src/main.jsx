@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
 import './index.css'
+
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,6 +12,8 @@ import Root from './mainlayout/Root.jsx';
 import Home from './pages/home/home.jsx';
 import About from './pages/about/About.jsx';
 import Services from './pages/services/Services.jsx';
+import Login from './pages/login/Login.jsx';
+import Details from './pages/details/Details.jsx';
 
 
 const router = createBrowserRouter([
@@ -30,6 +34,17 @@ const router = createBrowserRouter([
         path: "/services",
         element:<Services></Services>
       },
+      {
+        path:"/login" ,
+        element:<Login></Login>
+      },
+      {
+         path: "/eventDetails/:id",
+         element:<Details></Details>,
+         loader :()=> fetch("./public/create.json")
+        
+       
+      }
       
     ],
   },

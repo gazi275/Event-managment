@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "category": "Tech Conferences and Expos",
+        "title": "TechWorld Expo 2023",
+        "date": "2023-11-20",
+        "location": "San Francisco, CA",
+        "description": "The largest tech expo featuring the latest innovations and trends.",
+        "registrationLink": "https://example.com/techworld-expo"
+    },
+    {
+        "id": 2,
+        "category": "Tech Conferences and Expos",
+        "title": "AI Summit 2024",
+        "date": "2024-03-05",
+        "location": "New York, NY",
+        "description": "Explore the future of artificial intelligence with leading experts.",
+        "registrationLink": "https://example.com/ai-summit"
+    },
+    {
+        "id": 3,
+        "category": "Gaming Conventions",
+        "title": "E3 2024",
+        "date": "2024-06-12",
+        "location": "Los Angeles, CA",
+        "description": "The ultimate gaming convention showcasing upcoming game releases.",
+        "registrationLink": "https://example.com/e3-2024"
+    },
+    {
+        "id": 4,
+        "category": "Hackathons",
+        "title": "CodeFest 2024",
+        "date": "2024-04-15",
+        "location": "Online",
+        "description": "A 24-hour coding competition for programmers and developers.",
+        "registrationLink": "https://example.com/codefest-2024"
+    },
+    {
+        "id": 5,
+        "category": "Gaming Tournaments",
+        "title": "CS:GO Championship Series",
+        "date": "2023-12-10",
+        "location": "Online",
+        "description": "Compete in a Counter-Strike: Global Offensive tournament and win prizes.",
+        "registrationLink": "https://example.com/csgo-championship"
+    },
+    {
+        "id": 6,
+        "category": "Community Meetups",
+        "title": "Tech Enthusiast Meetup",
+        "date": "2024-02-25",
+        "location": "Seattle, WA",
+        "description": "Connect with fellow tech enthusiasts and discuss the latest tech trends.",
+        "registrationLink": "https://example.com/tech-meetup"
+    },
+    {
+        "id": 7,
+        "category": "Tech and Gaming Product Showcases",
+        "title": "Gadget Expo 2023",
+        "date": "2023-10-05",
+        "location": "Chicago, IL",
+        "description": "See the newest tech gadgets and gaming products on the market.",
+        "registrationLink": "https://example.com/gadget-expo"
+    }
+]
