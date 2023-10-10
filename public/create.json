@@ -6,17 +6,10 @@
         "date": "2023-11-20",
         "location": "San Francisco, CA",
         "description": "The largest tech expo featuring the latest innovations and trends.",
-        "registrationLink": "https://example.com/techworld-expo"
+        "registrationLink": "https://example.com/techworld-expo",
+        "image":"https://i.ibb.co/nj5t25F/headway-F2-KRf-Qf-Cqw-unsplash.jpg"
     },
-    {
-        "id": 2,
-        "category": "Tech Conferences and Expos",
-        "title": "AI Summit 2024",
-        "date": "2024-03-05",
-        "location": "New York, NY",
-        "description": "Explore the future of artificial intelligence with leading experts.",
-        "registrationLink": "https://example.com/ai-summit"
-    },
+    
     {
         "id": 3,
         "category": "Gaming Conventions",
@@ -24,7 +17,8 @@
         "date": "2024-06-12",
         "location": "Los Angeles, CA",
         "description": "The ultimate gaming convention showcasing upcoming game releases.",
-        "registrationLink": "https://example.com/e3-2024"
+        "registrationLink": "https://example.com/e3-2024",
+        "image":"https://i.ibb.co/brx9dWh/alex-haney-Bh-QZrx-Dq9oo-unsplash.jpg"
     },
     {
         "id": 4,
@@ -33,7 +27,8 @@
         "date": "2024-04-15",
         "location": "Online",
         "description": "A 24-hour coding competition for programmers and developers.",
-        "registrationLink": "https://example.com/codefest-2024"
+        "registrationLink": "https://example.com/codefest-2024",
+        "image":"https://i.ibb.co/vX5J8zN/Hackathon-USP.webp"
     },
     {
         "id": 5,
@@ -42,7 +37,8 @@
         "date": "2023-12-10",
         "location": "Online",
         "description": "Compete in a Counter-Strike: Global Offensive tournament and win prizes.",
-        "registrationLink": "https://example.com/csgo-championship"
+        "registrationLink": "https://example.com/csgo-championship",
+        "image":"https://i.ibb.co/dcGL5BK/gaming-tournaments.jpg"
     },
     {
         "id": 6,
@@ -51,7 +47,8 @@
         "date": "2024-02-25",
         "location": "Seattle, WA",
         "description": "Connect with fellow tech enthusiasts and discuss the latest tech trends.",
-        "registrationLink": "https://example.com/tech-meetup"
+        "registrationLink": "https://example.com/tech-meetup",
+        "image":"https://i.ibb.co/pft9cn4/meet-up.jpg"
     },
     {
         "id": 7,
@@ -60,6 +57,7 @@
         "date": "2023-10-05",
         "location": "Chicago, IL",
         "description": "See the newest tech gadgets and gaming products on the market.",
-        "registrationLink": "https://example.com/gadget-expo"
+        "registrationLink": "https://example.com/gadget-expo",
+        "image":"https://i.ibb.co/0DWZBgv/showcasee.jpg"
     }
 ]
