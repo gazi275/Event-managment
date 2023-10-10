@@ -15,6 +15,7 @@ import Services from './pages/services/Services.jsx';
 import Login from './pages/login/Login.jsx';
 import Details from './pages/details/Details.jsx';
 import Register from './pages/login/register';
+import Service from './pages/Service';
 
 
 const router = createBrowserRouter([
@@ -33,13 +34,19 @@ const router = createBrowserRouter([
         element:<About></About>,
       },
       {
-        path: "/services",
+        path: "/gallery",
         element:<Services></Services>
       },
       {
         path:"/login" ,
         element:<Login></Login>
       },
+      {
+        path:"/services" ,
+        element:<Service></Service>
+      },
+
+
       {
          path: "/eventDetails/:id",
          element:<Details></Details>,

@@ -5,29 +5,21 @@ import Cards from "../../component/cards/Cards";
 import { useEffect } from "react";
 import Accordian from "./Accordian";
 import Contact from "./Contact";
+import Article from "./Article";
 
 
 
 const Home = () => {
     const cards = useLoaderData();
-    // useEffect(() => {
-    //     fetch("create.json")
-    //         .then(res => res.json())
-    //         .then(data => console.log(data))
-    // }, [])
-
-
-    console.log("c==>", cards);
     return (
         <div >
 
 
             <Banner></Banner>
-
             <Cards className="mt-10" cards={cards} ></Cards>
-
-             <Accordian></Accordian>
-             <Contact></Contact>
+            <Article></Article>
+            <Accordian></Accordian>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
