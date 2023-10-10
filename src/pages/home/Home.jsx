@@ -16,7 +16,7 @@ const Home = () => {
 
 
             <Banner></Banner>
-            <Cards className="mt-10" cards={cards} ></Cards>
+            <Cards className="mt-10 " cards={cards} ></Cards>
             <Article></Article>
             <Accordian></Accordian>
             <Contact></Contact>

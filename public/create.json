@@ -7,9 +7,9 @@
         "location": "San Francisco, CA",
         "description": "The largest tech expo featuring the latest innovations and trends.",
         "registrationLink": "https://example.com/techworld-expo",
-        "image":"https://i.ibb.co/nj5t25F/headway-F2-KRf-Qf-Cqw-unsplash.jpg"
+        "image": "https://i.ibb.co/nj5t25F/headway-F2-KRf-Qf-Cqw-unsplash.jpg",
+        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
     },
-    
     {
         "id": 3,
         "category": "Gaming Conventions",
@@ -18,7 +18,8 @@
         "location": "Los Angeles, CA",
         "description": "The ultimate gaming convention showcasing upcoming game releases.",
         "registrationLink": "https://example.com/e3-2024",
-        "image":"https://i.ibb.co/brx9dWh/alex-haney-Bh-QZrx-Dq9oo-unsplash.jpg"
+        "image": "https://i.ibb.co/brx9dWh/alex-haney-Bh-QZrx-Dq9oo-unsplash.jpg",
+        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
     },
     {
         "id": 4,
@@ -28,7 +29,8 @@
         "location": "Online",
         "description": "A 24-hour coding competition for programmers and developers.",
         "registrationLink": "https://example.com/codefest-2024",
-        "image":"https://i.ibb.co/vX5J8zN/Hackathon-USP.webp"
+        "image": "https://i.ibb.co/vX5J8zN/Hackathon-USP.webp",
+        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
     },
     {
         "id": 5,
@@ -38,7 +40,8 @@
         "location": "Online",
         "description": "Compete in a Counter-Strike: Global Offensive tournament and win prizes.",
         "registrationLink": "https://example.com/csgo-championship",
-        "image":"https://i.ibb.co/dcGL5BK/gaming-tournaments.jpg"
+        "image": "https://i.ibb.co/dcGL5BK/gaming-tournaments.jpg",
+        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
     },
     {
         "id": 6,
@@ -48,7 +51,8 @@
         "location": "Seattle, WA",
         "description": "Connect with fellow tech enthusiasts and discuss the latest tech trends.",
         "registrationLink": "https://example.com/tech-meetup",
-        "image":"https://i.ibb.co/pft9cn4/meet-up.jpg"
+        "image": "https://i.ibb.co/pft9cn4/meet-up.jpg",
+        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
     },
     {
         "id": 7,
@@ -58,6 +62,7 @@
         "location": "Chicago, IL",
         "description": "See the newest tech gadgets and gaming products on the market.",
         "registrationLink": "https://example.com/gadget-expo",
-        "image":"https://i.ibb.co/0DWZBgv/showcasee.jpg"
+        "image": "https://i.ibb.co/0DWZBgv/showcasee.jpg",
+        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
     }
 ]
