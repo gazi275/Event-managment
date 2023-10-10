@@ -14,6 +14,7 @@ import About from './pages/about/About.jsx';
 import Services from './pages/services/Services.jsx';
 import Login from './pages/login/Login.jsx';
 import Details from './pages/details/Details.jsx';
+import Register from './pages/login/register';
 
 
 const router = createBrowserRouter([
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
          loader :()=> fetch("/create.json")
         
        
+      },
+      {
+        path:"/register" ,
+        element:<Register></Register>
       }
       
     ],
