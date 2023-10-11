@@ -19,7 +19,7 @@
         "description": "The ultimate gaming convention showcasing upcoming game releases.",
         "registrationLink": "https://example.com/e3-2024",
         "image": "https://i.ibb.co/brx9dWh/alex-haney-Bh-QZrx-Dq9oo-unsplash.jpg",
-        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
+        "briefDescription": "Gaming conventions, often known as gaming cons are events where gaming enthusiasts, developers, publishers, and industry professionals gather to celebrate and explore the world of video games. These conventions provide a platform for various activities"
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "description": "A 24-hour coding competition for programmers and developers.",
         "registrationLink": "https://example.com/codefest-2024",
         "image": "https://i.ibb.co/vX5J8zN/Hackathon-USP.webp",
-        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
+        "briefDescription": "A hackathon is an event where individuals or teams of programmers, designers, and other tech enthusiasts come together to collaborate intensively on software or hardware projects. These events typically have a set duration, which can range from a few hours to several days"
     },
     {
         "id": 5,
@@ -41,7 +41,7 @@
         "description": "Compete in a Counter-Strike: Global Offensive tournament and win prizes.",
         "registrationLink": "https://example.com/csgo-championship",
         "image": "https://i.ibb.co/dcGL5BK/gaming-tournaments.jpg",
-        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
+        "briefDescription": "A gaming tournament is a competitive event in which individuals or teams compete against each other in various video games, often with the goal of winning prizes, recognition, and sometimes financial rewards. These tournaments have become increasingly popular, especially with the rise of esports, where professional players and teams compete at a high level."
     },
     {
         "id": 6,
@@ -52,7 +52,7 @@
         "description": "Connect with fellow tech enthusiasts and discuss the latest tech trends.",
         "registrationLink": "https://example.com/tech-meetup",
         "image": "https://i.ibb.co/pft9cn4/meet-up.jpg",
-        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
+        "briefDescription": "A community meetup is a gathering of individuals who share common interests, goals, or affiliations within a specific community or group. These meetups provide an opportunity for members of a community to come together in person, foster connections, and engage in discussions or activities related to their shared interests"
     },
     {
         "id": 7,
@@ -63,6 +63,6 @@
         "description": "See the newest tech gadgets and gaming products on the market.",
         "registrationLink": "https://example.com/gadget-expo",
         "image": "https://i.ibb.co/0DWZBgv/showcasee.jpg",
-        "briefDescription": "Tech conferences are dynamic and immersive events that bring together industry experts, innovators, and enthusiasts from across the tech world. These conferences serve as platforms for sharing knowledge, networking, and exploring the latest trends and developments in technology"
+        "briefDescription": "A tech and gaming product showcase is an event or platform where companies and developers present their latest technology and gaming products to an audience of enthusiasts, industry professionals, and potential consumers. These showcases are essential for launching and promoting new products, generating excitement, and connecting with the target audience"
     }
 ]
