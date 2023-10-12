@@ -30,10 +30,10 @@
 
 
 //     // signin user
-//     const signin = (email, password) => {
+     const signin = (email, password) => {
 //         setLoading(true)
-//         return signInWithEmailAndPassword(auth, email, password);
-//     }
+         return signInWithEmailAndPassword(auth, email, password);
+     }
 
 
 //     const handleUpdateProfile = (name, photo) => {
@@ -59,7 +59,7 @@
     const authentication = {
          googleLogin,
          createUser,
-//         signin,
+         signin
 //         logOut,
 //         user,
 //         loading,

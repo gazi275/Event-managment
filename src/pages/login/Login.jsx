@@ -1,18 +1,49 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import GoogleWithLogin from './GoogleWithLogin';
+import { useContext } from 'react';
+import { AuthContext } from '../../provider/AuthProvider';
 
 
 
 
 
 const Login = () => {
-    
+    const {  signin } = useContext(AuthContext) 
+    console.log(signin);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        // get field values 
+       
+        const email = e.target.email.value;
+
+        const password = e.target.password.value;
+       
+
+
+        // validation 
+        if (password.length < 6) {
+            toast.error('Password must be at least 6 characters');
+            return;
+        }
+
+
+        signin(email, password)
+        .then(res=>console.log(res.user))
+        .catch(error=>console.log(error))
+
+    }
+
+
+
+
     return (
         <div className="mt-10" >
             
 <div className=" mx-auto w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
-    <form  className="space-y-6" >
+    <form onSubmit={handleSubmit} className="space-y-6" >
         <h5 className="text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h5>
         <div>
             <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>

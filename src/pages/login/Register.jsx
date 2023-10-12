@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import GoogleWithLogin from "./GoogleWithLogin";
-import { createContext } from "react";
+import { createContext, useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import toast from "react-hot-toast";
 import { createUserWithEmailAndPassword } from "firebase/auth";
@@ -11,7 +11,8 @@ import auth from "../../firebase/firebase.config";
 
 const Register = () => {
 
-    const {  createUser } = createContext(AuthContext)
+    const {  createUser } = useContext(AuthContext)
+    console.log(createUser);
 
 
     const handleSubmit = (e) => {
@@ -32,9 +33,9 @@ const Register = () => {
         }
 
 
-        createUser(email,password)
-        .then(res=>console.log(res.user))
-        .catch(error=>console.log(error.message))
+        createUser(email, password)
+        .then(res=>{console.log(res.user)})
+        .catch(error=>{console.log(error.message)})
 
     }
 
