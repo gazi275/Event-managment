@@ -11,7 +11,7 @@
 
 
  const AuthProvider = ({ children }) => {
-//     const [user, setUser] = useState({})
+    const [user, setUser] = useState({})
 //     const [loading, setLoading] = useState(true)
 
 
@@ -43,25 +43,26 @@
 //     }
 
 //     // to sign out user
-//     const logOut = () => {
-//         return signOut(auth)
-//     }
+    const logOut = () => {
+        return signOut(auth)
+    }
 
 
 //     // using observer
-//     useEffect(() => {
-//         onAuthStateChanged(auth, (user) => {
-//             setUser(user);
-//             setLoading(false)
-//         });
-//     }, [])
+    useEffect(() => {
+        onAuthStateChanged(auth, (user) => {
+            setUser(user);
+            // setLoading(false)
 
+        });
+    }, [])
+console.log(user);
     const authentication = {
          googleLogin,
          createUser,
-         signin
-//         logOut,
-//         user,
+         signin,
+        logOut,
+         user
 //         loading,
 //         handleUpdateProfile
      }
