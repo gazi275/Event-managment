@@ -16,6 +16,8 @@ import Login from './pages/login/Login.jsx';
 import Details from './pages/details/Details.jsx';
 import Register from './pages/login/register';
 import Service from './pages/Service';
+import AuthProvider from './provider/AuthProvider';
+
 
 
 const router = createBrowserRouter([
@@ -50,8 +52,9 @@ const router = createBrowserRouter([
       {
          path: "/eventDetails/:id",
          element:<Details></Details>,
+          
          loader :()=> fetch("/create.json")
-        
+         
        
       },
       {
@@ -65,6 +68,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+     <AuthProvider>
+      <RouterProvider router={router} />
+      </AuthProvider>  
+    
   </React.StrictMode>,
 )
