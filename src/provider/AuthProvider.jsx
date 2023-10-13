@@ -56,7 +56,7 @@
 
         });
     }, [])
-console.log(user);
+
     const authentication = {
          googleLogin,
          createUser,

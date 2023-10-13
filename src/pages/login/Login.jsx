@@ -10,7 +10,7 @@ import { AuthContext } from '../../provider/AuthProvider';
 
 const Login = () => {
     const {  signin } = useContext(AuthContext) 
-    console.log(signin);
+   
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -32,7 +32,7 @@ const Login = () => {
 
         signin(email, password)
         .then(res=>console.log(res.user))
-        .catch(error=>console.log(error))
+        .catch(error=>console.log(error.message))
 
     }
 

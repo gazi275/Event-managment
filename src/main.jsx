@@ -17,6 +17,7 @@ import Details from './pages/details/Details.jsx';
 import Register from './pages/login/register';
 import Service from './pages/Service';
 import AuthProvider from './provider/AuthProvider';
+import PrivateRoute from './privateRoute/PrivateRoute';
 
 
 
@@ -51,7 +52,9 @@ const router = createBrowserRouter([
 
       {
          path: "/eventDetails/:id",
-         element:<Details></Details>,
+         element:<PrivateRoute>
+          <Details></Details>
+          </PrivateRoute>,
           
          loader :()=> fetch("/create.json")
          
