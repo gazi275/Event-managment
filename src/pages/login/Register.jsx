@@ -3,8 +3,8 @@ import GoogleWithLogin from "./GoogleWithLogin";
 import { createContext, useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import toast from "react-hot-toast";
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import auth from "../../firebase/firebase.config";
+
+
 
 
 
@@ -34,8 +34,17 @@ const Register = () => {
 
 
         createUser(email, password)
-        .then(res=>{console.log(res.user)})
-        .catch(error=>{console.log(error.message)})
+            .then(res => {
+                handleUpdateProfile (name, img)
+                    .then(() => {
+                        toast.success('User created successfully');
+                        navigate('/')
+
+                    })
+            })
+            .catch(error => {
+                toast.error(error.message)
+            })
 
     }
 

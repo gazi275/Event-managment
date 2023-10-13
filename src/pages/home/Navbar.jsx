@@ -29,8 +29,8 @@ const Navbar = () => {
 
   
 
-            { user?
-            <div>
+            { user?.email?
+            <div className="flex gap-4">
             <button onClick={() => setUserOpen(!userOpen)} type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
               <span className="sr-only">Open user menu</span>
               <img className="w-8 h-8 rounded-full" src={user?.photoURL} alt="user photo" />

@@ -12,26 +12,26 @@
 
  const AuthProvider = ({ children }) => {
     const [user, setUser] = useState({})
-//     const [loading, setLoading] = useState(true)
+     const [loading, setLoading] = useState(true)
 
 
     // google login
     const googleLogin = () => {
-//         setLoading(true)
+        setLoading(true)
         return signInWithPopup(auth, googleProvider);
      }
     
 
      // create user 
      const createUser = (email, password) => {
-//         setLoading(true)
+        setLoading(true)
          return createUserWithEmailAndPassword(auth, email, password);
      }
 
 
 //     // signin user
      const signin = (email, password) => {
-//         setLoading(true)
+       setLoading(true)
          return signInWithEmailAndPassword(auth, email, password);
      }
 
@@ -52,7 +52,7 @@
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
             setUser(user);
-            // setLoading(false)
+             setLoading(false)
 
         });
     }, [])
@@ -62,8 +62,8 @@
          createUser,
          signin,
         logOut,
-         user
-//         loading,
+         user,
+        loading,
 //         handleUpdateProfile
      }
      return (

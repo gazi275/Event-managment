@@ -3,6 +3,7 @@ import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import GoogleWithLogin from './GoogleWithLogin';
 import { useContext } from 'react';
 import { AuthContext } from '../../provider/AuthProvider';
+import toast from 'react-hot-toast';
 
 
 
@@ -10,7 +11,7 @@ import { AuthContext } from '../../provider/AuthProvider';
 
 const Login = () => {
     const {  signin } = useContext(AuthContext) 
-   
+   const navigate= useNavigate()
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -31,9 +32,13 @@ const Login = () => {
 
 
         signin(email, password)
-        .then(res=>console.log(res.user))
-        .catch(error=>console.log(error.message))
-
+            .then(res => {
+                toast.success('User logged in successfully');
+                navigate('/')
+            })
+            .catch(error => {
+                toast.error(error.message)
+            })
     }
 
 
