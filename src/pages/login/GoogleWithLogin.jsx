@@ -14,7 +14,7 @@ console.log(googleLogin);
         googleLogin()
             .then(res => {
                 // 
-                console.log(9999);
+               
                  navigate('/')
                
             })
