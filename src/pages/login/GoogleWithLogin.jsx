@@ -8,12 +8,13 @@
 
      const navigate = useNavigate()
      const { user, googleLogin } = useContext(AuthContext);
+console.log(googleLogin);
 
-
-    const handleSocialLogin = (media) => {
-        media()
+    const handleSocialLogin = () => {
+        googleLogin()
             .then(res => {
-                 toast.success('User logged in successfully');
+                // 
+                console.log(9999);
                  navigate('/')
                
             })
@@ -26,7 +27,7 @@
             <div className="divider">continue with</div>
             <div className="flex justify-around">
                 <button
-                    onClick={() => handleSocialLogin(googleLogin)}
+                    onClick={handleSocialLogin}
                     className="btn btn-neutral btn-sm">Google</button>
                 
 
