@@ -16,7 +16,7 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // get field values 
+        
        
         const email = e.target.email.value;
 
@@ -24,11 +24,8 @@ const Login = () => {
        
 
 
-        // validation 
-        if (password.length < 6) {
-            toast.error('Password must be at least 6 characters');
-            return;
-        }
+      
+        
 
 
         signin(email, password)
@@ -37,7 +34,7 @@ const Login = () => {
                 navigate('/')
             })
             .catch(error => {
-                toast.error(error.message)
+                toast.error("your email or password is incorrect")
             })
     }
 

@@ -18,6 +18,7 @@ import Register from './pages/login/register';
 import Service from './pages/Service';
 import AuthProvider from './provider/AuthProvider';
 import PrivateRoute from './privateRoute/PrivateRoute';
+import ErrorPage from './ErrorPage';
 
 
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage />,
     children: [
       
       {

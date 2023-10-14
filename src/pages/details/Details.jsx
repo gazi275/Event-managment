@@ -16,7 +16,7 @@ const Details = () => {
     }, [id, detailsData])
 
 
-    const { image,  title, color, briefDescription, price,category } = detailsCard || {}
+    const { image,  title,  briefDescription, category,date,location } = detailsCard || {}
 
    
 
@@ -25,7 +25,7 @@ const Details = () => {
         const items = JSON.parse(localStorage.getItem("donated")) || [];
         console.log(items);
         if (items.length === 0) {
-            console.log("askiuhfiaswufhjvhjvdsaf");
+            console.log("askiuhfifdg");
             localStorage.setItem('donated', JSON.stringify([detailsCard]))
         }
         else {
@@ -46,14 +46,16 @@ const Details = () => {
 
 
     return (
-        <div className="" >
+        <div className="bg-[url(https://i.ibb.co/PF0fzSC/arrows-pastel-colors.jpg)] border" >
           <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
     <img src={image} className="w-1/2 rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-5xl font-bold">{title}</h1>
+      <h1 className="text-5xl font-bold text-stone-500">{title}</h1>
       <p className="py-6">{briefDescription}</p>
-      <button className="btn btn-primary">Get Started</button>
+
+      <p className="text-xl text-secondary-content">Where to Find Us: {location} </p>
+      <p className="text-xl text-secondary-content">See you On: {date}</p>
     </div>
   </div>
 </div>  

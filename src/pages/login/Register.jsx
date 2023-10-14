@@ -27,25 +27,21 @@ const Register = () => {
 
 
         // validation 
-        if (password.length < 6) {
-            toast.error('Password must be at least 6 characters');
+        if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/.test(password)) {
+            toast.error('Password must be at least 6 characters,Uppercase-letter and special characters');
             return;
         }
 
 
         createUser(email, password)
             .then(res => {
-                handleUpdateProfile (name, img)
-                    .then(() => {
-                        toast.success('User created successfully');
-                        navigate('/')
-
-                    })
+                toast.success('you have registered  successfully');
+                
             })
             .catch(error => {
-                toast.error(error.message)
+                console.log(error.message);
+                toast.error("Please fil up your form correctly")
             })
-
     }
 
 

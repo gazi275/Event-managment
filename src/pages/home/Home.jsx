@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Accordian from "./Accordian";
 import Contact from "./Contact";
 import Article from "./Article";
+import Aos from "./Aos";
 
 
 
@@ -17,8 +18,10 @@ const Home = () => {
 
             <Banner></Banner>
             <Cards className="mt-10 " cards={cards} ></Cards>
+            
             <Article></Article>
             <Accordian></Accordian>
+            
             <Contact></Contact>
             <Footer></Footer>
         </div>
