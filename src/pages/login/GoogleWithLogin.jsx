@@ -1,5 +1,5 @@
  import { useContext } from "react";
-
+import toast from "react-hot-toast";
  import { useNavigate } from "react-router-dom";
  import { AuthContext } from "../../provider/AuthProvider";
 
@@ -13,8 +13,8 @@ console.log(googleLogin);
     const handleSocialLogin = () => {
         googleLogin()
             .then(res => {
-                // 
-               
+                 
+                toast.success('User logged in successfully');
                  navigate('/')
                
             })
